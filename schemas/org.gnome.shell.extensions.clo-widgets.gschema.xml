@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clo-widgets"
+          path="/org/gnome/shell/extensions/clo-widgets/">
+
+    <!-- Global -->
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>Panel position</summary>
+      <description>Where to place widgets in the top panel: left, center, or right</description>
+    </key>
+
+    <!-- CPU Widget -->
+    <key name="cpu-enabled" type="b">
+      <default>true</default>
+      <summary>Enable CPU widget</summary>
+      <description>Show CPU usage percentage in the panel</description>
+    </key>
+    <key name="cpu-update-interval" type="i">
+      <default>2</default>
+      <summary>CPU update interval</summary>
+      <description>How often to refresh CPU data in seconds</description>
+    </key>
+    <key name="cpu-show-icon" type="b">
+      <default>true</default>
+      <summary>Show CPU icon</summary>
+      <description>Show an icon next to the CPU percentage</description>
+    </key>
+
+    <!-- Memory Widget -->
+    <key name="memory-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Memory widget</summary>
+      <description>Show memory usage percentage in the panel</description>
+    </key>
+    <key name="memory-update-interval" type="i">
+      <default>3</default>
+      <summary>Memory update interval</summary>
+      <description>How often to refresh memory data in seconds</description>
+    </key>
+    <key name="memory-show-icon" type="b">
+      <default>true</default>
+      <summary>Show Memory icon</summary>
+      <description>Show an icon next to the memory percentage</description>
+    </key>
+
+    <!-- Network Speed Widget -->
+    <key name="netspeed-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Network Speed widget</summary>
+      <description>Show network upload/download speed in the panel</description>
+    </key>
+    <key name="netspeed-update-interval" type="i">
+      <default>2</default>
+      <summary>Network speed update interval</summary>
+      <description>How often to refresh network speed in seconds</description>
+    </key>
+    <key name="netspeed-show-icon" type="b">
+      <default>true</default>
+      <summary>Show Network Speed icon</summary>
+      <description>Show an icon next to the network speed values</description>
+    </key>
+
+    <!-- Weather Widget -->
+    <key name="weather-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Weather widget</summary>
+      <description>Show weather information in the panel</description>
+    </key>
+    <key name="weather-update-interval" type="i">
+      <default>600</default>
+      <summary>Weather update interval</summary>
+      <description>How often to refresh weather data in seconds</description>
+    </key>
+    <key name="weather-location" type="s">
+      <default>'auto'</default>
+      <summary>Weather location</summary>
+      <description>City name for weather data, or 'auto' for automatic detection</description>
+    </key>
+    <key name="weather-show-icon" type="b">
+      <default>true</default>
+      <summary>Show Weather icon</summary>
+      <description>Show a weather condition icon next to the temperature</description>
+    </key>
+    <key name="weather-units" type="s">
+      <default>'metric'</default>
+      <summary>Temperature units</summary>
+      <description>Temperature units: metric (°C) or imperial (°F)</description>
+    </key>
+  </schema>
+</schemalist>

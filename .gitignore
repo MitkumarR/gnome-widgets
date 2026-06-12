@@ -1,0 +1,17 @@
+# Compiled schemas
+schemas/gschemas.compiled
+
+# Packed extension archives
+*.zip
+*.shell-extension.zip
+
+# Editor / IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db

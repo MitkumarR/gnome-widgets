@@ -1,0 +1,16 @@
+{
+    "name": "Clo Widgets",
+    "description": "Beautiful desktop widgets for your GNOME panel — CPU, Memory, Network Speed & Weather at a glance",
+    "uuid": "clo-widgets@mitkumar.dev",
+    "shell-version": [
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+    ],
+    "settings-schema": "org.gnome.shell.extensions.clo-widgets",
+    "version": 1,
+    "url": "https://github.com/MitkumarR/gnome-widgets"
+}

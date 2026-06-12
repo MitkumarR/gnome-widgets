@@ -1,0 +1,107 @@
+/* ================================================================
+ *  Clo Widgets — Stylesheet
+ *  Premium glassmorphic styling for GNOME Shell top panel widgets
+ * ================================================================ */
+
+/* ── Base widget box ─────────────────────────────────────────────── */
+.clo-widget-box {
+    spacing: 6px;
+    padding: 0 8px;
+    border-radius: 8px;
+    margin: 2px 3px;
+    transition-duration: 200ms;
+}
+
+.clo-widget-box:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Widget icons ────────────────────────────────────────────────── */
+.clo-widget-icon {
+    icon-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-right: 2px;
+}
+
+/* ── Widget labels ───────────────────────────────────────────────── */
+.clo-widget-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Usage-level color coding ────────────────────────────────────── */
+.clo-usage-normal {
+    color: #8be9fd;
+}
+
+.clo-usage-warning {
+    color: #f1fa8c;
+}
+
+.clo-usage-critical {
+    color: #ff5555;
+    font-weight: 800;
+}
+
+/* ── CPU-specific ────────────────────────────────────────────────── */
+.clo-cpu-box {
+    /* subtle teal accent glow */
+}
+
+.clo-cpu-label {
+    min-width: 36px;
+    text-align: right;
+}
+
+/* ── Memory-specific ─────────────────────────────────────────────── */
+.clo-mem-box {
+    /* subtle purple accent */
+}
+
+.clo-mem-label {
+    min-width: 36px;
+    text-align: right;
+}
+
+/* ── Network speed ───────────────────────────────────────────────── */
+.clo-net-box {
+    spacing: 4px;
+}
+
+.clo-net-speed-stack {
+    spacing: 0px;
+}
+
+.clo-net-speed-label {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.clo-net-down {
+    color: #50fa7b;
+}
+
+.clo-net-up {
+    color: #ffb86c;
+}
+
+/* ── Weather ─────────────────────────────────────────────────────── */
+.clo-weather-box {
+    spacing: 5px;
+}
+
+.clo-weather-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #f8f8f2;
+}
+
+/* ── Popup menu styling ──────────────────────────────────────────── */
+.clo-popup-header {
+    font-size: 13px;
+    font-weight: 700;
+    color: #bd93f9;
+}
